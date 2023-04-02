@@ -1,0 +1,186 @@
+#From-box {
+    text-align: center;
+}
+#submit-button{
+    height: 50px;
+    width: 100px;
+    background-color: azure;
+    font-size: large;
+}
+#submit-button:hover{
+    height: 50px;
+    width: 100px;
+    background-color: rgb(210, 220, 220);
+    font-size: large;
+    cursor: pointer;
+}
+#From-box label{
+    font-size: 25px;
+
+}
+.data-box {
+    border: solid 3px rgb(29, 29, 30);
+    width: 700px;
+    height: 150px;
+    font-size: large;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 10px;
+    
+    
+}
+
+.main {
+    background-image: url("ding.jpg");
+    background-repeat: no-repeat;
+    height: 500px;
+    background-position: center;
+    
+}
+
+.main2 {
+    margin-top: -400px;
+}
+
+.box2 {
+    margin-top: -250px;
+    margin-bottom: 0px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 350px;
+    height: 50px;
+    background-color: rgb(29, 29, 30);
+    margin-bottom: 50px;
+
+}
+
+.box {
+    margin: 20px auto;
+    width: 50px;
+    height: 350px;
+    background-color: cornflowerblue;
+    margin-bottom: 50px;
+    position: relative;
+}
+
+.left {
+    animation: left 1s ease-in-out alternate;
+}
+
+@keyframes left {
+    0% {
+        transform: rotate(0);
+    }
+
+    50% {
+        transform: rotate(-45deg);
+    }
+
+    100% {
+        transform: rotate(0);
+    }
+}
+
+.boxy {
+    margin: 20px auto;
+    width: 50px;
+    height: 350px;
+    background-color: cornflowerblue;
+    margin-bottom: 50px;
+    position: relative;
+}
+
+.right {
+    animation: right 1s ease-in-out alternate;
+}
+
+@keyframes right {
+    0% {
+        transform: rotate(0);
+    }
+
+    50% {
+        transform: rotate(45deg);
+    }
+
+    100% {
+        transform: rotate(0);
+    }
+}
+
+
+
+@media (max-width:699px){
+   
+    #From-box {
+        text-align: center;
+    }
+    #submit-button{
+        height: 50px;
+        width: 100%;
+        background-color: azure;
+        font-size: large;
+    }
+    #submit-button:hover{
+        height: 50px;
+        width: 100%;
+        background-color: rgb(210, 220, 220);
+        font-size: large;
+        cursor: pointer;
+    }
+    #From-box label{
+        font-size: 25px;
+    
+    }
+    .data-box {
+        border: solid 3px rgb(29, 29, 30);
+        width: 380px;
+        height: 150px;
+        font-size: large;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        padding: 10px;
+        
+        
+    }
+    
+    .main {
+        background-image: url("ding.jpg");
+        background-repeat: no-repeat;
+        height: 500px;
+        background-position: center;
+        background-size:500px
+        
+    }
+    
+    .main2 {
+        margin-top: -400px;
+    }
+    
+    .box2 {
+        margin-top: -230px;
+        margin-bottom: 0px;
+        margin-right: auto;
+        margin-left: auto;
+        width: 320px;
+        height: 35px;
+        background-color: rgb(29, 29, 30);
+        margin-bottom: 50px;
+    
+    }
+    
+    .box {
+        margin: 30px auto;
+        width: 35px;
+        height: 350px;
+        background-color: cornflowerblue;
+        margin-bottom: 60px;
+        position: relative;
+    }
+    .boxy {
+        margin: 30px auto;
+        width: 35px;
+        height: 350px;
+        background-color: cornflowerblue;
+        margin-bottom: 60px;
+        position: relative;
+    }
+} 
